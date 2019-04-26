@@ -7,6 +7,8 @@
 //
 
 #import "FFViewController.h"
+#import "FFCategories.h"
+#import "FFLimitTextView.h"
 
 @interface FFViewController ()
 
@@ -17,13 +19,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    FFLimitTextView *tv = [[FFLimitTextView alloc] init];
+    tv.frame = CGRectMake(15, 50, self.view.FF_Width-30, 150);
+    [self.view addSubview:tv];
 }
 
 @end

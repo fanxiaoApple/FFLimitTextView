@@ -1,0 +1,22 @@
+{
+  "name": "FFLimitTextView",
+  "version": "0.1.0",
+  "summary": "A short description of FFLimitTextView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fanxiaoApple/FFLimitTextView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fanxiaoApple": "XF_MBP@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/fanxiaoApple/FFLimitTextView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FFLimitTextView/Classes/**/*"
+}

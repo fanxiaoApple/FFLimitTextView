@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		528A1D70C9BFD9C9151D749D /* libPods-FFLimitTextView_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB533C5FEE674D4CBB2FBDC4 /* libPods-FFLimitTextView_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +22,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		81BD4807754D9510F6A8FFBA /* libPods-FFLimitTextView_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AE7E31CC48925F680C13ED /* libPods-FFLimitTextView_Tests.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		89885461643592B819E4A5C2 /* Pods_FFLimitTextView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269FED31F9D8B2F803B6D1DC /* Pods_FFLimitTextView_Tests.framework */; };
-		F0F0C1ECADC3366F52063DA1 /* Pods_FFLimitTextView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38216445861D9F40C4547964 /* Pods_FFLimitTextView_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		269FED31F9D8B2F803B6D1DC /* Pods_FFLimitTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFLimitTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		305521FCAAEECA3AFFB93762 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		38216445861D9F40C4547964 /* Pods_FFLimitTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFLimitTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		023649F72272E44A008F7505 /* libFFCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFFCategories.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		305521FCAAEECA3AFFB93762 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FFLimitTextView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFLimitTextView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,13 +59,15 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		81A62C8A47CE2022CA9FB1E7 /* FFLimitTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FFLimitTextView.podspec; path = ../FFLimitTextView.podspec; sourceTree = "<group>"; };
+		81A62C8A47CE2022CA9FB1E7 /* FFLimitTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFLimitTextView.podspec; path = ../FFLimitTextView.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93BCFC38C8F54C9AE51C73B8 /* Pods-FFLimitTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFLimitTextView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFLimitTextView_Tests/Pods-FFLimitTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A6CC132417DE76CE4721930F /* Pods-FFLimitTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFLimitTextView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFLimitTextView_Example/Pods-FFLimitTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AF358FCB1F96E8E36CE700C7 /* Pods-FFLimitTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFLimitTextView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFLimitTextView_Tests/Pods-FFLimitTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CD29236F40CFD6A428CAA537 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B2AE7E31CC48925F680C13ED /* libPods-FFLimitTextView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFLimitTextView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD29236F40CFD6A428CAA537 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EABBF2C8D2AB4543D98D2287 /* Pods-FFLimitTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFLimitTextView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFLimitTextView_Example/Pods-FFLimitTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FB533C5FEE674D4CBB2FBDC4 /* libPods-FFLimitTextView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFLimitTextView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +78,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				F0F0C1ECADC3366F52063DA1 /* Pods_FFLimitTextView_Example.framework in Frameworks */,
+				528A1D70C9BFD9C9151D749D /* libPods-FFLimitTextView_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +89,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				89885461643592B819E4A5C2 /* Pods_FFLimitTextView_Tests.framework in Frameworks */,
+				81BD4807754D9510F6A8FFBA /* libPods-FFLimitTextView_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,12 +131,13 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				023649F72272E44A008F7505 /* libFFCategories.a */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				38216445861D9F40C4547964 /* Pods_FFLimitTextView_Example.framework */,
-				269FED31F9D8B2F803B6D1DC /* Pods_FFLimitTextView_Tests.framework */,
+				FB533C5FEE674D4CBB2FBDC4 /* libPods-FFLimitTextView_Example.a */,
+				B2AE7E31CC48925F680C13ED /* libPods-FFLimitTextView_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +209,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				412C11BF6BD41B9E37ED058C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,28 +295,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		412C11BF6BD41B9E37ED058C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FFLimitTextView_Example/Pods-FFLimitTextView_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FFLimitTextView/FFLimitTextView.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFLimitTextView.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FFLimitTextView_Example/Pods-FFLimitTextView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A217918A331DE7EDC6F7830D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -452,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -485,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

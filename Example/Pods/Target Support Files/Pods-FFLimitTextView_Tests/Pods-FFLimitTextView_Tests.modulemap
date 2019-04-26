@@ -1,0 +1,6 @@
+framework module Pods_FFLimitTextView_Tests {
+  umbrella header "Pods-FFLimitTextView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

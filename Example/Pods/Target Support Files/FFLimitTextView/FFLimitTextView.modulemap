@@ -1,0 +1,6 @@
+framework module FFLimitTextView {
+  umbrella header "FFLimitTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

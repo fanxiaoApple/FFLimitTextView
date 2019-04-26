@@ -1,0 +1,23 @@
+PODS:
+  - FFCategories (0.0.1)
+  - FFLimitTextView (0.1.0)
+
+DEPENDENCIES:
+  - FFCategories (~> 0.0.1)
+  - FFLimitTextView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FFCategories
+
+EXTERNAL SOURCES:
+  FFLimitTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FFCategories: 68b31b66a210d14ad1758b79d6363f5c07c7f2b0
+  FFLimitTextView: 3d406e0c8990959cbba33ed905a3a8c11aee6577
+
+PODFILE CHECKSUM: fb831241a5fbdf0004cb515fc2af773f715426e2
+
+COCOAPODS: 1.5.3

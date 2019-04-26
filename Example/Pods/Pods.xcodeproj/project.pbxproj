@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0157328ED8915C2EB53665D3BDF957A7 /* FFLimitTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AA7F828283EEE962A275DE6A0CE02 /* FFLimitTextView-dummy.m */; };
+		077451E455015E258CB96E0DE3DA2F7A /* UIView+FFAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E76648913DF7398333059BF54C1DD5CE /* UIView+FFAdd.m */; };
+		079FDEFA2BC5792ACD78891835DD24B0 /* UIBarButtonItem+FFAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B928EEE50D20B8E19BC831E374587D /* UIBarButtonItem+FFAdd.m */; };
+		22B06D1711E29DCAF44E4C66064B3422 /* NSString+FFAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE622DFAD594B3A9E5AA257A2172CFC /* NSString+FFAdd.m */; };
+		3D0161C9A4AEAAFF37476B7DC2867185 /* NSData+FFAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2C74C027D78CD66168AAFEA1AD9987 /* NSData+FFAdd.m */; };
+		5C8DD924CC1D315C0B44722B9DA2D3A9 /* Pods-FFLimitTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFAB28B8331EDE1007E830A2CBC391A /* Pods-FFLimitTextView_Tests-dummy.m */; };
+		632E3C2B2FB5DF9CDE54B34BD1673663 /* UIView+FFAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E1D859CB1D89E8FD9C9B00263929BE /* UIView+FFAdd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B175EE1058132B2547DCD936B53FE65 /* UIApplication+FFAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = FA072A20B7046571FAC11C6B02E42A42 /* UIApplication+FFAdd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7EFA1E8D8E467F05DD3C7D112184AA3D /* UIColor+FFAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = C085544967DE333A81A91BF7335842F5 /* UIColor+FFAdd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C0E8BF387BCAB7EC0E701CC3D135A1F /* NSString+FFAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 80DC70A35D11FE4271F430071A4F6A66 /* NSString+FFAdd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F9D86C51DF945B3989380B661DD92ED /* NSDate+FFAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CFD24638020B457854C368BF1759D6 /* NSDate+FFAdd.m */; };
+		90E862E6A72C84D93E3566614F0717EB /* UIApplication+FFAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 283054275D2461233BDCD96EA3E73701 /* UIApplication+FFAdd.m */; };
+		91738102E7197DCAE103E623C91DE710 /* Pods-FFLimitTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 881BBA26088ACD10F277B64AD201AD42 /* Pods-FFLimitTextView_Example-dummy.m */; };
+		9C8DA7BB804103D73159AA927EE2DA12 /* FFCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA32B36F224F737E94853F28846033A /* FFCategories-dummy.m */; };
+		9F29061C211DF5A51616A4655ED1524B /* UIImage+FFAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7537B5AE245F7B8C906998516D9C88 /* UIImage+FFAdd.m */; };
+		B024A6D51CA7B5F72ADC2291439DB571 /* UIColor+FFAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 287A61D108F346086F739B29BC0CB45D /* UIColor+FFAdd.m */; };
+		B0A5E44722FB20F00FA5370549BE4134 /* FFCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1B9C1015D14A61C094FF6030CAFA8B /* FFCategories.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B81109FBEF7220CB63C942607BF68FE6 /* NSData+FFAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EEA6003AF2AADDC87E44423E77EDE7 /* NSData+FFAdd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BBA3D3FA592A21D3BB4C82BC22546A2C /* UIBarButtonItem+FFAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 371DC0BB22FD28C331951EB3D5433B7A /* UIBarButtonItem+FFAdd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C699CD684D04BFD6EA0B3516223E899B /* FFLimitTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = D8DE99C69797E51AAD6E98123C6FC87C /* FFLimitTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1070CCE7F223A3985B3ACB891A3F268 /* NSDate+FFAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D20508ACAAADA57B2E54A8CC5134E4 /* NSDate+FFAdd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D52E6648D1C351513AAF0F39ABA19825 /* UIImage+FFAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = B2B1AA031B85E8703F84EC9602EF5F1F /* UIImage+FFAdd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD5EF64686928C7392E85DACE8966EB3 /* FFLimitTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8A3A2E42D55CE88AEE1C26AC9A03CF /* FFLimitTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CCB8F4E4D64709D2C41CE19608AC45B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 579C4725A87EE1BC4672F57357D76F9E;
+			remoteInfo = "Pods-FFLimitTextView_Example";
+		};
+		741A7D44650BE3CFBA02FA368EA82937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A073C33D7E57FA75E770CB99B4A1C422;
+			remoteInfo = FFLimitTextView;
+		};
+		9F0CBE4D6D29624849E1C6B773C516C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D50F6A31359F484489D15BD942897A9;
+			remoteInfo = FFCategories;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E9397F31598786BB435DE11B6A7278 /* Pods-FFLimitTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFLimitTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		05EEA6003AF2AADDC87E44423E77EDE7 /* NSData+FFAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+FFAdd.h"; path = "Classes/NSData+FFAdd.h"; sourceTree = "<group>"; };
+		0B1B9C1015D14A61C094FF6030CAFA8B /* FFCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFCategories.h; path = Classes/FFCategories.h; sourceTree = "<group>"; };
+		0CE5EE4CF3A904C7E2777B711FE31495 /* libPods-FFLimitTextView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FFLimitTextView_Tests.a"; path = "libPods-FFLimitTextView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		110405E5FD262BBADFC2174496B064CD /* Pods-FFLimitTextView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFLimitTextView_Example-resources.sh"; sourceTree = "<group>"; };
+		13B928EEE50D20B8E19BC831E374587D /* UIBarButtonItem+FFAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+FFAdd.m"; path = "Classes/UIBarButtonItem+FFAdd.m"; sourceTree = "<group>"; };
+		15D20508ACAAADA57B2E54A8CC5134E4 /* NSDate+FFAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+FFAdd.h"; path = "Classes/NSDate+FFAdd.h"; sourceTree = "<group>"; };
+		168B0772AE09FAB1D61D92BE61CAE136 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1919FC8D6323E4B65CAB5DABCE2F28FB /* libPods-FFLimitTextView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FFLimitTextView_Example.a"; path = "libPods-FFLimitTextView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2F7121DFC947A922B1975E2A372293 /* Pods-FFLimitTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFLimitTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		283054275D2461233BDCD96EA3E73701 /* UIApplication+FFAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+FFAdd.m"; path = "Classes/UIApplication+FFAdd.m"; sourceTree = "<group>"; };
+		287A61D108F346086F739B29BC0CB45D /* UIColor+FFAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+FFAdd.m"; path = "Classes/UIColor+FFAdd.m"; sourceTree = "<group>"; };
+		2A2AA7F828283EEE962A275DE6A0CE02 /* FFLimitTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFLimitTextView-dummy.m"; sourceTree = "<group>"; };
+		2BE622DFAD594B3A9E5AA257A2172CFC /* NSString+FFAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FFAdd.m"; path = "Classes/NSString+FFAdd.m"; sourceTree = "<group>"; };
+		30E97857AADC8909F8A8EBADA47CF3AC /* Pods-FFLimitTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFLimitTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		371DC0BB22FD28C331951EB3D5433B7A /* UIBarButtonItem+FFAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+FFAdd.h"; path = "Classes/UIBarButtonItem+FFAdd.h"; sourceTree = "<group>"; };
+		3C991EDA86875C2E9BC3E3E54994A13C /* Pods-FFLimitTextView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFLimitTextView_Tests-resources.sh"; sourceTree = "<group>"; };
+		3D7537B5AE245F7B8C906998516D9C88 /* UIImage+FFAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FFAdd.m"; path = "Classes/UIImage+FFAdd.m"; sourceTree = "<group>"; };
+		3F8FA3B80E7243F2F500F8DDED1F07B9 /* FFCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFCategories.xcconfig; sourceTree = "<group>"; };
+		42A153C4119B0437BB4CDBF29BEABD9F /* Pods-FFLimitTextView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFLimitTextView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4460A905442F27ADFBC29503C40AA067 /* Pods-FFLimitTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFLimitTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4ACC6E4B7A6360B0090FAA47753F121E /* FFLimitTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFLimitTextView.xcconfig; sourceTree = "<group>"; };
+		6E2C74C027D78CD66168AAFEA1AD9987 /* NSData+FFAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+FFAdd.m"; path = "Classes/NSData+FFAdd.m"; sourceTree = "<group>"; };
+		6F265B7C6FEF54EE9120396D9C4814D6 /* Pods-FFLimitTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFLimitTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		80DC70A35D11FE4271F430071A4F6A66 /* NSString+FFAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FFAdd.h"; path = "Classes/NSString+FFAdd.h"; sourceTree = "<group>"; };
+		881BBA26088ACD10F277B64AD201AD42 /* Pods-FFLimitTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFLimitTextView_Example-dummy.m"; sourceTree = "<group>"; };
+		8E8871E3F2320E48DEEF58D9F59ABC07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8FA32B36F224F737E94853F28846033A /* FFCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFCategories-dummy.m"; sourceTree = "<group>"; };
+		9277AED410A3811FF5DB85F8376CECC5 /* Pods-FFLimitTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFLimitTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9DFAB28B8331EDE1007E830A2CBC391A /* Pods-FFLimitTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFLimitTextView_Tests-dummy.m"; sourceTree = "<group>"; };
+		ADA2D4724998349F390F7AEF3D5D25E6 /* FFCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFCategories-prefix.pch"; sourceTree = "<group>"; };
+		B2B1AA031B85E8703F84EC9602EF5F1F /* UIImage+FFAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FFAdd.h"; path = "Classes/UIImage+FFAdd.h"; sourceTree = "<group>"; };
+		B4FF264AC52A545363A18C92648687B0 /* libFFLimitTextView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFFLimitTextView.a; path = libFFLimitTextView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B552319F375F80A79156BFAB8DB757F1 /* Pods-FFLimitTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFLimitTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7116EA9974FF02CCF35A37E2A2ED97B /* FFLimitTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FFLimitTextView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B9434F95178156AF018103EE53471239 /* FFLimitTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFLimitTextView-prefix.pch"; sourceTree = "<group>"; };
+		C085544967DE333A81A91BF7335842F5 /* UIColor+FFAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+FFAdd.h"; path = "Classes/UIColor+FFAdd.h"; sourceTree = "<group>"; };
+		CB3C689616F34034052B69A862D02AB3 /* Pods-FFLimitTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFLimitTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CFBAF1D275856F5862748565CB63823B /* libFFCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFFCategories.a; path = libFFCategories.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E1D859CB1D89E8FD9C9B00263929BE /* UIView+FFAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FFAdd.h"; path = "Classes/UIView+FFAdd.h"; sourceTree = "<group>"; };
+		D6CFD24638020B457854C368BF1759D6 /* NSDate+FFAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+FFAdd.m"; path = "Classes/NSDate+FFAdd.m"; sourceTree = "<group>"; };
+		D8DE99C69797E51AAD6E98123C6FC87C /* FFLimitTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFLimitTextView.h; path = FFLimitTextView/Classes/FFLimitTextView.h; sourceTree = "<group>"; };
+		E55A7691D79B3A52775F6B67BA45DE94 /* Pods-FFLimitTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFLimitTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E76648913DF7398333059BF54C1DD5CE /* UIView+FFAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FFAdd.m"; path = "Classes/UIView+FFAdd.m"; sourceTree = "<group>"; };
+		EB8A3A2E42D55CE88AEE1C26AC9A03CF /* FFLimitTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFLimitTextView.m; path = FFLimitTextView/Classes/FFLimitTextView.m; sourceTree = "<group>"; };
+		FA072A20B7046571FAC11C6B02E42A42 /* UIApplication+FFAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+FFAdd.h"; path = "Classes/UIApplication+FFAdd.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06631F7AE93EC9E1AE178082213807F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11493F3FF62F170FECE98CD794487475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C653BBDCA33E96AE7900E68A436D52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BB1405CADAA7038EEDDBE221FDABAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491012A65649A66E25AE0AF3BA79854F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B429736B22E27E2E8C2799C8D6274E49 /* FFLimitTextView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		596FBCDB214D49C27156DD43FF63AC66 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ACC6E4B7A6360B0090FAA47753F121E /* FFLimitTextView.xcconfig */,
+				2A2AA7F828283EEE962A275DE6A0CE02 /* FFLimitTextView-dummy.m */,
+				B9434F95178156AF018103EE53471239 /* FFLimitTextView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FFLimitTextView";
+			sourceTree = "<group>";
+		};
+		719371DDC311A1F17D384C855A016E0D /* Pods-FFLimitTextView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				02E9397F31598786BB435DE11B6A7278 /* Pods-FFLimitTextView_Example-acknowledgements.markdown */,
+				4460A905442F27ADFBC29503C40AA067 /* Pods-FFLimitTextView_Example-acknowledgements.plist */,
+				881BBA26088ACD10F277B64AD201AD42 /* Pods-FFLimitTextView_Example-dummy.m */,
+				1F2F7121DFC947A922B1975E2A372293 /* Pods-FFLimitTextView_Example-frameworks.sh */,
+				110405E5FD262BBADFC2174496B064CD /* Pods-FFLimitTextView_Example-resources.sh */,
+				9277AED410A3811FF5DB85F8376CECC5 /* Pods-FFLimitTextView_Example.debug.xcconfig */,
+				CB3C689616F34034052B69A862D02AB3 /* Pods-FFLimitTextView_Example.release.xcconfig */,
+			);
+			name = "Pods-FFLimitTextView_Example";
+			path = "Target Support Files/Pods-FFLimitTextView_Example";
+			sourceTree = "<group>";
+		};
+		74BA9072F79EAF384F42057DA8B12287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFBAF1D275856F5862748565CB63823B /* libFFCategories.a */,
+				B4FF264AC52A545363A18C92648687B0 /* libFFLimitTextView.a */,
+				1919FC8D6323E4B65CAB5DABCE2F28FB /* libPods-FFLimitTextView_Example.a */,
+				0CE5EE4CF3A904C7E2777B711FE31495 /* libPods-FFLimitTextView_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F4FA15686B1D3F38A9DD28A7FCAD683 /* FFCategories */ = {
+			isa = PBXGroup;
+			children = (
+				0B1B9C1015D14A61C094FF6030CAFA8B /* FFCategories.h */,
+				05EEA6003AF2AADDC87E44423E77EDE7 /* NSData+FFAdd.h */,
+				6E2C74C027D78CD66168AAFEA1AD9987 /* NSData+FFAdd.m */,
+				15D20508ACAAADA57B2E54A8CC5134E4 /* NSDate+FFAdd.h */,
+				D6CFD24638020B457854C368BF1759D6 /* NSDate+FFAdd.m */,
+				80DC70A35D11FE4271F430071A4F6A66 /* NSString+FFAdd.h */,
+				2BE622DFAD594B3A9E5AA257A2172CFC /* NSString+FFAdd.m */,
+				FA072A20B7046571FAC11C6B02E42A42 /* UIApplication+FFAdd.h */,
+				283054275D2461233BDCD96EA3E73701 /* UIApplication+FFAdd.m */,
+				371DC0BB22FD28C331951EB3D5433B7A /* UIBarButtonItem+FFAdd.h */,
+				13B928EEE50D20B8E19BC831E374587D /* UIBarButtonItem+FFAdd.m */,
+				C085544967DE333A81A91BF7335842F5 /* UIColor+FFAdd.h */,
+				287A61D108F346086F739B29BC0CB45D /* UIColor+FFAdd.m */,
+				B2B1AA031B85E8703F84EC9602EF5F1F /* UIImage+FFAdd.h */,
+				3D7537B5AE245F7B8C906998516D9C88 /* UIImage+FFAdd.m */,
+				D5E1D859CB1D89E8FD9C9B00263929BE /* UIView+FFAdd.h */,
+				E76648913DF7398333059BF54C1DD5CE /* UIView+FFAdd.m */,
+				D521B48ADA22E3B7AA65B859A6347BF2 /* Support Files */,
+			);
+			name = FFCategories;
+			path = FFCategories;
+			sourceTree = "<group>";
+		};
+		88C8EF3D630514958F02D941CBE3F4A8 /* Pods-FFLimitTextView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				30E97857AADC8909F8A8EBADA47CF3AC /* Pods-FFLimitTextView_Tests-acknowledgements.markdown */,
+				6F265B7C6FEF54EE9120396D9C4814D6 /* Pods-FFLimitTextView_Tests-acknowledgements.plist */,
+				9DFAB28B8331EDE1007E830A2CBC391A /* Pods-FFLimitTextView_Tests-dummy.m */,
+				42A153C4119B0437BB4CDBF29BEABD9F /* Pods-FFLimitTextView_Tests-frameworks.sh */,
+				3C991EDA86875C2E9BC3E3E54994A13C /* Pods-FFLimitTextView_Tests-resources.sh */,
+				B552319F375F80A79156BFAB8DB757F1 /* Pods-FFLimitTextView_Tests.debug.xcconfig */,
+				E55A7691D79B3A52775F6B67BA45DE94 /* Pods-FFLimitTextView_Tests.release.xcconfig */,
+			);
+			name = "Pods-FFLimitTextView_Tests";
+			path = "Target Support Files/Pods-FFLimitTextView_Tests";
+			sourceTree = "<group>";
+		};
+		B429736B22E27E2E8C2799C8D6274E49 /* FFLimitTextView */ = {
+			isa = PBXGroup;
+			children = (
+				D8DE99C69797E51AAD6E98123C6FC87C /* FFLimitTextView.h */,
+				EB8A3A2E42D55CE88AEE1C26AC9A03CF /* FFLimitTextView.m */,
+				D774445E3C7638EC2330E7E290A39F84 /* Pod */,
+				596FBCDB214D49C27156DD43FF63AC66 /* Support Files */,
+			);
+			name = FFLimitTextView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B91786926226C158FFA15E49E1DD6120 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F4FA15686B1D3F38A9DD28A7FCAD683 /* FFCategories */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C411A1C528852A97E327A2D40888F3BB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				719371DDC311A1F17D384C855A016E0D /* Pods-FFLimitTextView_Example */,
+				88C8EF3D630514958F02D941CBE3F4A8 /* Pods-FFLimitTextView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				491012A65649A66E25AE0AF3BA79854F /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				B91786926226C158FFA15E49E1DD6120 /* Pods */,
+				74BA9072F79EAF384F42057DA8B12287 /* Products */,
+				C411A1C528852A97E327A2D40888F3BB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D521B48ADA22E3B7AA65B859A6347BF2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F8FA3B80E7243F2F500F8DDED1F07B9 /* FFCategories.xcconfig */,
+				8FA32B36F224F737E94853F28846033A /* FFCategories-dummy.m */,
+				ADA2D4724998349F390F7AEF3D5D25E6 /* FFCategories-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FFCategories";
+			sourceTree = "<group>";
+		};
+		D774445E3C7638EC2330E7E290A39F84 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B7116EA9974FF02CCF35A37E2A2ED97B /* FFLimitTextView.podspec */,
+				168B0772AE09FAB1D61D92BE61CAE136 /* LICENSE */,
+				8E8871E3F2320E48DEEF58D9F59ABC07 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2CDC64E85C1034B0340E14DB50E0F283 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A5E44722FB20F00FA5370549BE4134 /* FFCategories.h in Headers */,
+				B81109FBEF7220CB63C942607BF68FE6 /* NSData+FFAdd.h in Headers */,
+				D1070CCE7F223A3985B3ACB891A3F268 /* NSDate+FFAdd.h in Headers */,
+				8C0E8BF387BCAB7EC0E701CC3D135A1F /* NSString+FFAdd.h in Headers */,
+				6B175EE1058132B2547DCD936B53FE65 /* UIApplication+FFAdd.h in Headers */,
+				BBA3D3FA592A21D3BB4C82BC22546A2C /* UIBarButtonItem+FFAdd.h in Headers */,
+				7EFA1E8D8E467F05DD3C7D112184AA3D /* UIColor+FFAdd.h in Headers */,
+				D52E6648D1C351513AAF0F39ABA19825 /* UIImage+FFAdd.h in Headers */,
+				632E3C2B2FB5DF9CDE54B34BD1673663 /* UIView+FFAdd.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF0106E79CBE32D38F7D6AF83CDC2A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C699CD684D04BFD6EA0B3516223E899B /* FFLimitTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B867EA3D821A764D70C9B8F832394902 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C919721FA23DD18969ED8BED35BFE11D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B15A682A90E69F662264FEE9EBAB664 /* Pods-FFLimitTextView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C98D34B78AC415F54D023C6ED24C992 /* Build configuration list for PBXNativeTarget "Pods-FFLimitTextView_Tests" */;
+			buildPhases = (
+				B867EA3D821A764D70C9B8F832394902 /* Headers */,
+				F5A76F597A60D57C020C7184A229D811 /* Sources */,
+				06631F7AE93EC9E1AE178082213807F1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF08CB2E15C68F8DC2E33E5F5ABF28B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-FFLimitTextView_Tests";
+			productName = "Pods-FFLimitTextView_Tests";
+			productReference = 0CE5EE4CF3A904C7E2777B711FE31495 /* libPods-FFLimitTextView_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		579C4725A87EE1BC4672F57357D76F9E /* Pods-FFLimitTextView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7C9DF2EBE547B632060971759FFAA0B /* Build configuration list for PBXNativeTarget "Pods-FFLimitTextView_Example" */;
+			buildPhases = (
+				C919721FA23DD18969ED8BED35BFE11D /* Headers */,
+				4B7013B19FB1D8D0ED2F47BDA7B9ECFF /* Sources */,
+				11493F3FF62F170FECE98CD794487475 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2724324D14E36C015E4BD8AA2D9782A /* PBXTargetDependency */,
+				50429983CD774669083593419C301B7F /* PBXTargetDependency */,
+			);
+			name = "Pods-FFLimitTextView_Example";
+			productName = "Pods-FFLimitTextView_Example";
+			productReference = 1919FC8D6323E4B65CAB5DABCE2F28FB /* libPods-FFLimitTextView_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6D50F6A31359F484489D15BD942897A9 /* FFCategories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A87664746F25077359E0D949D4A40D /* Build configuration list for PBXNativeTarget "FFCategories" */;
+			buildPhases = (
+				2CDC64E85C1034B0340E14DB50E0F283 /* Headers */,
+				47DAB03EAF682065446AB7A2DBFA4522 /* Sources */,
+				C7C653BBDCA33E96AE7900E68A436D52 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFCategories;
+			productName = FFCategories;
+			productReference = CFBAF1D275856F5862748565CB63823B /* libFFCategories.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A073C33D7E57FA75E770CB99B4A1C422 /* FFLimitTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0224E40F640E6D7EB425C1A667D43A5A /* Build configuration list for PBXNativeTarget "FFLimitTextView" */;
+			buildPhases = (
+				4BF0106E79CBE32D38F7D6AF83CDC2A0 /* Headers */,
+				2A948430B65BFBB78A30559E3C0FA6B2 /* Sources */,
+				F7BB1405CADAA7038EEDDBE221FDABAB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFLimitTextView;
+			productName = FFLimitTextView;
+			productReference = B4FF264AC52A545363A18C92648687B0 /* libFFLimitTextView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 74BA9072F79EAF384F42057DA8B12287 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D50F6A31359F484489D15BD942897A9 /* FFCategories */,
+				A073C33D7E57FA75E770CB99B4A1C422 /* FFLimitTextView */,
+				579C4725A87EE1BC4672F57357D76F9E /* Pods-FFLimitTextView_Example */,
+				3B15A682A90E69F662264FEE9EBAB664 /* Pods-FFLimitTextView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A948430B65BFBB78A30559E3C0FA6B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0157328ED8915C2EB53665D3BDF957A7 /* FFLimitTextView-dummy.m in Sources */,
+				FD5EF64686928C7392E85DACE8966EB3 /* FFLimitTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47DAB03EAF682065446AB7A2DBFA4522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8DA7BB804103D73159AA927EE2DA12 /* FFCategories-dummy.m in Sources */,
+				3D0161C9A4AEAAFF37476B7DC2867185 /* NSData+FFAdd.m in Sources */,
+				8F9D86C51DF945B3989380B661DD92ED /* NSDate+FFAdd.m in Sources */,
+				22B06D1711E29DCAF44E4C66064B3422 /* NSString+FFAdd.m in Sources */,
+				90E862E6A72C84D93E3566614F0717EB /* UIApplication+FFAdd.m in Sources */,
+				079FDEFA2BC5792ACD78891835DD24B0 /* UIBarButtonItem+FFAdd.m in Sources */,
+				B024A6D51CA7B5F72ADC2291439DB571 /* UIColor+FFAdd.m in Sources */,
+				9F29061C211DF5A51616A4655ED1524B /* UIImage+FFAdd.m in Sources */,
+				077451E455015E258CB96E0DE3DA2F7A /* UIView+FFAdd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B7013B19FB1D8D0ED2F47BDA7B9ECFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91738102E7197DCAE103E623C91DE710 /* Pods-FFLimitTextView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A76F597A60D57C020C7184A229D811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8DD924CC1D315C0B44722B9DA2D3A9 /* Pods-FFLimitTextView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50429983CD774669083593419C301B7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FFLimitTextView;
+			target = A073C33D7E57FA75E770CB99B4A1C422 /* FFLimitTextView */;
+			targetProxy = 741A7D44650BE3CFBA02FA368EA82937 /* PBXContainerItemProxy */;
+		};
+		B2724324D14E36C015E4BD8AA2D9782A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FFCategories;
+			target = 6D50F6A31359F484489D15BD942897A9 /* FFCategories */;
+			targetProxy = 9F0CBE4D6D29624849E1C6B773C516C8 /* PBXContainerItemProxy */;
+		};
+		EF08CB2E15C68F8DC2E33E5F5ABF28B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FFLimitTextView_Example";
+			target = 579C4725A87EE1BC4672F57357D76F9E /* Pods-FFLimitTextView_Example */;
+			targetProxy = 4CCB8F4E4D64709D2C41CE19608AC45B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3073E9329E3D859060CB4B679A6C557C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3B4692A6B6E595D2195FEEC0FE496BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACC6E4B7A6360B0090FAA47753F121E /* FFLimitTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FFLimitTextView/FFLimitTextView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FFLimitTextView;
+				PRODUCT_NAME = FFLimitTextView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F7655ED58D15A67B8ADA47EF2CE88D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E55A7691D79B3A52775F6B67BA45DE94 /* Pods-FFLimitTextView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		987211380EDE4E4E946E75384E1377C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F8FA3B80E7243F2F500F8DDED1F07B9 /* FFCategories.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FFCategories/FFCategories-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FFCategories;
+				PRODUCT_NAME = FFCategories;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BC060365EAFCC506B42DF24E4D26B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB3C689616F34034052B69A862D02AB3 /* Pods-FFLimitTextView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4490FD9C026DEC0946CE6930BA283AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B552319F375F80A79156BFAB8DB757F1 /* Pods-FFLimitTextView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9F16C1C31E79C008BB262FBBC114FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F8FA3B80E7243F2F500F8DDED1F07B9 /* FFCategories.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FFCategories/FFCategories-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FFCategories;
+				PRODUCT_NAME = FFCategories;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6D504CA9C94DC6A35F23ED84E806E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9277AED410A3811FF5DB85F8376CECC5 /* Pods-FFLimitTextView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E728C0BD3857BC99A5D2AD6ACDFBA09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EDDFD345A46F86295BAC3488051EB9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACC6E4B7A6360B0090FAA47753F121E /* FFLimitTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FFLimitTextView/FFLimitTextView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FFLimitTextView;
+				PRODUCT_NAME = FFLimitTextView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0224E40F640E6D7EB425C1A667D43A5A /* Build configuration list for PBXNativeTarget "FFLimitTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4692A6B6E595D2195FEEC0FE496BCF /* Debug */,
+				EDDFD345A46F86295BAC3488051EB9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C98D34B78AC415F54D023C6ED24C992 /* Build configuration list for PBXNativeTarget "Pods-FFLimitTextView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4490FD9C026DEC0946CE6930BA283AC /* Debug */,
+				6F7655ED58D15A67B8ADA47EF2CE88D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A87664746F25077359E0D949D4A40D /* Build configuration list for PBXNativeTarget "FFCategories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F16C1C31E79C008BB262FBBC114FEE /* Debug */,
+				987211380EDE4E4E946E75384E1377C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E728C0BD3857BC99A5D2AD6ACDFBA09A /* Debug */,
+				3073E9329E3D859060CB4B679A6C557C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7C9DF2EBE547B632060971759FFAA0B /* Build configuration list for PBXNativeTarget "Pods-FFLimitTextView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D504CA9C94DC6A35F23ED84E806E82 /* Debug */,
+				9BC060365EAFCC506B42DF24E4D26B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
